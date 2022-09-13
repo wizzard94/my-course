@@ -21,15 +21,15 @@ td {
     height: 3px;
     left: 413px;
     top: 190px;
-    background: linear-gradient(to top, #ff66cc -11%, #66ffcc 113%);
+    background: #000000;
 }
 .trait_2 {
     position: absolute;
     width: 614px;
     height: 3px;
     left: 413px;
-    top: 1200px;
-    background:linear-gradient(to top, #ff66cc -11%, #66ffcc 113%);
+    top: 1500px;
+    background:#000000;
 }
 .facts_about_me_1 {
     position: absolute;
@@ -84,22 +84,43 @@ td {
     color: #000000;
 }
 .avatar {
-    padding: 64px 829px 1150px 521px;
+    padding: 64px 1009px 1500px 521px;
     width: 96px;
     height: 91px;
-    left: 700px;
+    left: 900px;
     top: 64px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
     border-radius: 20px;
 }
 .my_skills {
     position: absolute;
     left: 632px;
-    top: 415px;
+    top: 425px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
+    color: #000000;
+}
+.certificate {
+    position: absolute;
+    width: 615px;
+    height: 300px;
+    left: 411px;
+    top: 700px;
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+.certif {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;;
     color: #000000;
 }
 .image_1 {
@@ -197,13 +218,21 @@ td {
     top: 580px;
     background: url(image.png);
 }
-
+.image_14 {
+    position: relative;
+    top: 20px;
+    left: 22px;
+    margin: 0px;
+    background: url(image.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 3px;  
+}
 .rectangle {
     position: absolute;    
-    width: 289px;
-    height: 185px;
-    left: 721px;
-    top: 782px;    
+    width: 260px;
+    height: 195px;
+    left: 750px;
+    top: 775px;    
     margin: 0px;
     background: #F5F3F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -215,7 +244,7 @@ td {
     font-family: 'Inter';
     height: 450px;
     left: 413px;
-    top: 730px;
+    top: 1030px;
     background: #c1efd7;
     border-radius: 3px;
 }
@@ -239,7 +268,7 @@ td {
 .my_сontact {
     position: absolute;
     left: 637px;
-    top: 1210px;
+    top: 1499px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -249,7 +278,7 @@ td {
 .phone_number {
     position: absolute;
     left: 447px;
-    top: 1250px;
+    top: 1540px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -260,7 +289,7 @@ td {
 .telegram {
     position: absolute;
     left: 640px;
-    top: 1250px;
+    top: 1540px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -272,7 +301,7 @@ td {
     position: absolute;
     padding-left: 35px;
     left: 790px;
-    top: 1250px;
+    top: 1540px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
