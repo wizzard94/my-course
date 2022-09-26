@@ -27,8 +27,8 @@ td {
     position: absolute;
     width: 614px;
     height: 3px;
-    left: 413px;
-    top: 1500px;
+    left: 0px;
+    top: 1100px;
     background:#000000;
 }
 .facts_about_me_1 {
@@ -46,7 +46,7 @@ td {
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-    background:linear-gradient(to right, #66ff99 0%, #ff66cc 100%);
+    background:llinear-gradient(to left, #66ffcc -5%, #ff99ff 100%);
 }
 .wraper {
     padding: 0px 0px 10px 10px;
@@ -84,7 +84,7 @@ td {
     color: #000000;
 }
 .avatar {
-    padding: 64px 1009px 1500px 521px;
+    padding: 64px 1009px 2000px 521px;
     width: 96px;
     height: 91px;
     left: 900px;
@@ -112,7 +112,7 @@ td {
     height: 300px;
     left: 411px;
     top: 700px;
-    background: #FFFFFF;
+    background: linear-gradient(to left, #66ffcc -5%, #ff99ff 100%);
     border-radius: 3px;
 }
 .certif {
@@ -245,7 +245,7 @@ td {
     height: 450px;
     left: 413px;
     top: 1030px;
-    background: #c1efd7;
+    background: linear-gradient(to left, #66ffcc -5%, #ff99ff 100%);
     border-radius: 3px;
 }
 .works {
@@ -265,10 +265,58 @@ td {
     width: 529px;
     height: 200px;
 }
+.video {
+    position: absolute;
+    width: 610px;
+    height: 350px;
+    left: 0px;
+    top: 460px;
+    background: linear-gradient(to left, #66ffcc -5%, #ff99ff 100%);
+    border-radius: 3px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0em;
+}
+.video iframe {
+    position: absolute;
+    left: 106px;   
+}
+.wish-me {
+    position: absolute;
+    width: 614px;
+    height: 200px;
+    left: 0px;
+    top: 830px;
+    background: linear-gradient(to left, #66ffcc -5%, #ff99ff 100%);
+    border-radius: 3px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0em;   
+}
+.forms {
+    position: absolute;
+    left: 50px;
+    top: 70px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 15px;
+}
+.buttons {
+    position: absolute;
+    left: 260px;
+    top: 155px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 15px;
+}
 .my_сontact {
     position: absolute;
-    left: 637px;
-    top: 1499px;
+    left: 235px;
+    top: 1049px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -277,8 +325,8 @@ td {
 }
 .phone_number {
     position: absolute;
-    left: 447px;
-    top: 1540px;
+    left: 0px;
+    top: 1100px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -288,8 +336,8 @@ td {
 }
 .telegram {
     position: absolute;
-    left: 640px;
-    top: 1540px;
+    left: 220px;
+    top: 1100px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -300,8 +348,8 @@ td {
 .github {
     position: absolute;
     padding-left: 35px;
-    left: 790px;
-    top: 1540px;
+    left: 440px;
+    top: 1100px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
