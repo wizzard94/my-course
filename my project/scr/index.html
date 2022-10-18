@@ -12,7 +12,7 @@
     </head>
     <body>
         <header> 
-            <div class="name">
+            <div class="name" name="Андрей" data-test-id="text__my-name">
                 <p>Безденежных Андрей </p>
                 <p> </p>
             </div>
@@ -111,7 +111,7 @@
                     </tr>
                 </table>
             </div>
-            <section class="video" id="memo">
+            <section class="video" id="memo" data-test-id="object__mem-video">
                 <p><center>Мемасик</center></p>
                 <iframe name="mem_video" width="400" height="250" src="https://www.youtube.com/embed/baY3SaIhfl0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                 </iframe>
@@ -124,7 +124,7 @@
                     <input type="text" id="regrads"> 
                     <p>
                     <div> <center>
-                    <input id="check" type="checkbox">
+                    <input id="check" type="checkbox" data-test-id="checkbox__send-anonimnus">
                     <label for="check">Отправить анонимно</label>
                     </center>
                 </p>
@@ -132,14 +132,14 @@
                   </form>
                 </div>
                 <div class="buttons" id="send_button">
-                  <input type="button" name="отправить" value="Отправить"/>
+                  <input type="button" name="отправить" value="Отправить" data-test-id="button__send-regrads"/>
                 </div>
               </section>
         <div class="trait_2"></div>
             <div class="my_сontact">
                 <p><center>Связаться со мной</center></p>
             </div>
-                <div class="phone_number">
+                <div class="phone_number" data-test-id="text__my-phone">
                     <p>Телефон: +79877044368</p>
                 </div>
                 <div class="telegram">
